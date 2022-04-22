@@ -1,0 +1,63 @@
+:root {
+    --bg-color: #FBFBFB;
+    --navlink-color: #010100;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8%;
+}
+
+.main-container nav {
+    padding: 1rem 0;
+    font-family: Poppins, sans-serif;
+}
+
+.main-container nav a {
+    margin-left: 3rem;
+    color: var(--navlink-color);
+    font-size: 1.4rem;
+    position: relative;
+}
+.main-container nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.8rem;
+    width: 0;
+    height: 2px;
+    background-color: #010100;
+    transition: all 500ms;
+}
+.main-container nav a:hover::after {
+    width: 100%;
+}
+
+.main-container .hamburger > div{
+    width: 30px;
+    height: 4px;
+    margin-top: 4px;
+    background-color: #010100;
+    cursor: pointer;
+}
+.hamburger > div:nth-child(2) {
+    margin-left: 0.5rem;
+}
