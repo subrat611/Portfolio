@@ -220,6 +220,7 @@ body::-webkit-scrollbar-thumb {
         height: 500px;
         top: 15%;
         left: 75%;
+        filter: hue-rotate(22deg);
     }
     .hero__title {
         position: absolute;
