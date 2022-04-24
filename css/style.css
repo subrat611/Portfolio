@@ -51,7 +51,9 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--scroll-bar-color);
 }
 
-
+.main-container {
+    overflow: hidden;
+}
 .main-container header {
     height: 90px;
     display: flex;
@@ -212,16 +214,16 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 412px) {
     .hero-section .hero__image img {
         overflow: hidden;
-        height: 450px;
+        height: 550px;
         top: 10%;
         left: 70%;
     }
     .hero__title {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 11%;
     }
     .title__name {
