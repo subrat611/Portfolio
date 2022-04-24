@@ -217,7 +217,7 @@ body::-webkit-scrollbar-thumb {
 @media(max-width: 412px) {
     .hero-section .hero__image img {
         overflow: hidden;
-        height: 550px;
+        height: 500px;
         top: 10%;
         left: 70%;
     }
