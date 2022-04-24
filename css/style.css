@@ -218,12 +218,12 @@ body::-webkit-scrollbar-thumb {
     .hero-section .hero__image img {
         overflow: hidden;
         height: 500px;
-        top: 10%;
-        left: 70%;
+        top: 20%;
+        left: 75%;
     }
     .hero__title {
         position: absolute;
-        top: 50%;
+        top: 54%;
         left: 11%;
     }
     .title__name {
