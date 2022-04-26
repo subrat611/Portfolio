@@ -1,0 +1,155 @@
+.skills__technical div:nth-child(1) img {
+    /* animation: circle_one 2.5s ease-in-out forwards 200ms; */
+    animation: circle_one 2.5s ease-in-out forwards infinite alternate 200ms;
+}
+
+.skills__technical div:nth-child(2) img {
+    /* animation: circle_one 2.5s ease-in-out forwards 200ms; */
+    animation: circle_two 2.8s ease-in-out forwards infinite alternate 300ms;
+}
+
+.skills__technical div:nth-child(3) img {
+    /* animation: circle_one 2.5s ease-in-out forwards 200ms; */
+    animation: circle_three 3.1s ease-in-out forwards infinite alternate 110ms;
+}
+
+.skills__technical div:nth-child(4) img {
+    /* animation: circle_one 2.5s ease-in-out forwards 200ms; */
+    animation: circle_four 3.4s ease-in-out forwards infinite alternate 150ms;
+}
+
+@keyframes circle_one {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        height: 55px;
+        transform: translateX(-250px);
+    }
+}
+
+@keyframes circle_two {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    80% {
+        opacity: 1;
+        height: 50px;
+    }
+
+    100% {
+        height: 55px;
+        transform: translateX(-200px) translateY(-200px);
+    }
+}
+
+@keyframes circle_three {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    80% {
+        opacity: 1;
+        height: 50px;
+    }
+
+    100% {
+        height: 55px;
+        transform: translateX(200px) translateY(200px);
+    }
+}
+
+@keyframes circle_four {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        height: 50px;
+        transform: translateX(200px) translateY(-200px);
+    }
+}
+
+
+
+/* Media queries */
+
+@media(max-width:412px) {
+    @keyframes circle_one {
+        0% {
+            opacity: 0;
+            height: 0;
+        }
+    
+        80% {
+            opacity: 1;
+        }
+    
+        100% {
+            height: 40px;
+            transform: translateX(-140px);
+        }
+    }
+    
+    @keyframes circle_two {
+        0% {
+            opacity: 0;
+            height: 0;
+        }
+    
+        80% {
+            opacity: 1;
+        }
+    
+        100% {
+            height: 45px;
+            transform: translateX(-100px) translateY(-150px);
+        }
+    }
+    
+    @keyframes circle_three {
+        0% {
+            opacity: 0;
+            height: 0;
+        }
+    
+        80% {
+            opacity: 1;
+        }
+    
+        100% {
+            height: 40px;
+            transform: translateX(100px) translateY(150px);
+        }
+    }
+    
+    @keyframes circle_four {
+        0% {
+            opacity: 0;
+            height: 0;
+        }
+    
+        80% {
+            opacity: 1;
+        }
+    
+        100% {
+            height: 45px;
+            transform: translateX(100px) translateY(-150px);
+        }
+    }
+}
